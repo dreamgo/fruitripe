@@ -63,7 +63,7 @@ static CGFloat const kDCPathButtonDefaultReverseRotation = -M_PI*2;
     _viewOffset = CGPointMake(0, 0);
     parentView == nil? (self.parentView = parentView):(self.parentView = parentView);
     xAxis == 0? (self.centerLocationAxisX = kDCPathButtonCurrentFrameWidth/2) : (self.centerLocationAxisX = xAxis);
-    yAxis == 0? (self.centerLocationAxisY = kDCPathButtonCurrentFrameHeight/2) : (self.centerLocationAxisY = yAxis);
+    yAxis == 0? (self.centerLocationAxisY = kDCPathButtonCurrentFrameHeight/2.1) : (self.centerLocationAxisY = yAxis);
     self.buttonCount = buttonCount;
     self.totalRaiuds = totalRadius;
     self.subRadius = subRadius;

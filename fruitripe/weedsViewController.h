@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface weedsViewController : UIViewController
+@interface weedsViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property (nonatomic, strong) NSArray *menu1;
+@property (nonatomic, strong) NSArray *menu2;
+@property (nonatomic, strong) NSArray *menu3;
+
 
 @end

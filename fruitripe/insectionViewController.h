@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface insectionViewController : UIViewController
+@interface insectionViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property (nonatomic, strong) NSArray *menu1;
+@property (nonatomic, strong) NSArray *menu2;
+@property (nonatomic, strong) NSArray *menu3;
+
 
 @end

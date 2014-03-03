@@ -84,7 +84,7 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"menucell"];
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"diseasecell"];
     switch (indexPath.section) {
         case 0:
             cell.textLabel.text=[self.menu1 objectAtIndex:indexPath.row];

@@ -27,7 +27,7 @@
     startLocation = self.center;
     finalLocation = startLocation;
 }
-
+/*
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
     isMoving = YES;
     self.highlighted = NO;
@@ -36,8 +36,8 @@
     }
     self.center = [[touches anyObject]locationInView:self.superview];
     currentLocation = [[touches anyObject]locationInView:self.superview];
-}
-
+} 
+*/
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
     if (isMoving) {
         if ([_delegate respondsToSelector:@selector(centerButtonEnded)]) {

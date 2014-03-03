@@ -30,7 +30,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     DCPathButton *dcPathButton = [[DCPathButton alloc]
                                   initDCPathButtonWithSubButtons:6
-                                  totalRadius:120
+                                  totalRadius:125
                                   centerRadius:33
                                   subRadius:25
                                   centerImage:@"center-paw"
