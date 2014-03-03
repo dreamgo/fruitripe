@@ -46,6 +46,9 @@
 		2DA9C25918C3D5720095873B /* strawberry512.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA9C24318C3D5720095873B /* strawberry512.png */; };
 		2DA9C25A18C3D5720095873B /* NSMutableArray+addImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9C24518C3D5720095873B /* NSMutableArray+addImage.m */; };
 		2DA9C25C18C3E66C0095873B /* strawberrybg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA9C25B18C3E66C0095873B /* strawberrybg.png */; };
+		2DA9C25F18C403C70095873B /* DiseaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9C25E18C403C70095873B /* DiseaseViewController.m */; };
+		2DA9C26218C411C20095873B /* weedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9C26118C411C20095873B /* weedsViewController.m */; };
+		2DA9C26518C411D80095873B /* insectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9C26418C411D80095873B /* insectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +111,12 @@
 		2DA9C24418C3D5720095873B /* NSMutableArray+addImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+addImage.h"; sourceTree = "<group>"; };
 		2DA9C24518C3D5720095873B /* NSMutableArray+addImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+addImage.m"; sourceTree = "<group>"; };
 		2DA9C25B18C3E66C0095873B /* strawberrybg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberrybg.png; sourceTree = "<group>"; };
+		2DA9C25D18C403C70095873B /* DiseaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiseaseViewController.h; sourceTree = "<group>"; };
+		2DA9C25E18C403C70095873B /* DiseaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiseaseViewController.m; sourceTree = "<group>"; };
+		2DA9C26018C411C20095873B /* weedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weedsViewController.h; sourceTree = "<group>"; };
+		2DA9C26118C411C20095873B /* weedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weedsViewController.m; sourceTree = "<group>"; };
+		2DA9C26318C411D80095873B /* insectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insectionViewController.h; sourceTree = "<group>"; };
+		2DA9C26418C411D80095873B /* insectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = insectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +179,12 @@
 				2DA9C12D18C3B7F50095873B /* fruitripeAppDelegate.h */,
 				2DA9C12E18C3B7F50095873B /* fruitripeAppDelegate.m */,
 				2DA9C13018C3B7F50095873B /* Main.storyboard */,
+				2DA9C26318C411D80095873B /* insectionViewController.h */,
+				2DA9C26418C411D80095873B /* insectionViewController.m */,
+				2DA9C26018C411C20095873B /* weedsViewController.h */,
+				2DA9C26118C411C20095873B /* weedsViewController.m */,
+				2DA9C25D18C403C70095873B /* DiseaseViewController.h */,
+				2DA9C25E18C403C70095873B /* DiseaseViewController.m */,
 				2DA9C15318C3B8390095873B /* MainViewController.h */,
 				2DA9C15418C3B8390095873B /* MainViewController.m */,
 				2DA9C13618C3B7F50095873B /* Images.xcassets */,
@@ -383,10 +398,13 @@
 				2DA9C12B18C3B7F50095873B /* main.m in Sources */,
 				2DA9C24818C3D5720095873B /* DCSubButton.m in Sources */,
 				2DA9C15518C3B8390095873B /* MainViewController.m in Sources */,
+				2DA9C26518C411D80095873B /* insectionViewController.m in Sources */,
 				2DA9C12F18C3B7F50095873B /* fruitripeAppDelegate.m in Sources */,
+				2DA9C26218C411C20095873B /* weedsViewController.m in Sources */,
 				2DA9C24718C3D5720095873B /* DCPathButton.m in Sources */,
 				2DA9C24618C3D5720095873B /* DCCenterButton.m in Sources */,
 				2DA9C25A18C3D5720095873B /* NSMutableArray+addImage.m in Sources */,
+				2DA9C25F18C403C70095873B /* DiseaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +613,7 @@
 				2DA9C14F18C3B7F50095873B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DA9C15018C3B7F50095873B /* Build configuration list for PBXNativeTarget "fruitripeTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +622,7 @@
 				2DA9C15218C3B7F50095873B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
